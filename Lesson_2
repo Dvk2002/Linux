@@ -1,0 +1,8 @@
+ubuntu@ip-172-31-17-73:~$ mkdir first
+ubuntu@ip-172-31-17-73:~$ mkdir second
+ubuntu@ip-172-31-17-73:~$ echo "print(1)" > ./first/first.py
+ubuntu@ip-172-31-17-73:~$ echo "print(2)" > ./second/second.py
+ubuntu@ip-172-31-17-73:~$ mv ./second/second.py ./first
+ubuntu@ip-172-31-17-73:~$ rm -r second
+ubuntu@ip-172-31-17-73:~$ mv first first_second
+ubuntu@ip-172-31-17-73:~$ rm -r first_second
