@@ -1,4 +1,8 @@
 vim hello_world.py
 wc -l hello_world.py
-vim Linear_regression.py
+nano Linear_regression.py
 cat hello_world.py Linear_regression.py
+cat > new1_file.txt
+Вариант простого текстового редактора
+cat hello_world.py Linear_regression.py > new2_file.py
+cat -s new2_file.py
