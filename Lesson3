@@ -1,0 +1,4 @@
+vim hello_world.py
+wc -l hello_world.py
+vim Linear_regression.py
+cat hello_world.py Linear_regression.py
