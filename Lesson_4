@@ -12,7 +12,7 @@ vim hello_world
 # task 3
 
 cd ../user_new
- cat > print_number.py
+cat > print_number.py
  
 import time
 
