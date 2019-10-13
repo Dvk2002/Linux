@@ -1,0 +1,21 @@
+# task1
+
+sudo useradd -m user_new
+chmod o+w hello_world.py
+sudo passwd user_new
+
+# task 2
+
+su user_new
+vim hello_world
+
+# task 3
+
+cd ../user_new
+ cat > print_number.py
+ 
+import time
+
+for i in range(10):
+    time.sleep(1)
+    print(i+1)
