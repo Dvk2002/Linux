@@ -8,7 +8,7 @@ chmod o+w hello_world.py
 # task 2
 
 su user_new
-vim hello_world
+vim hello_world.py
 
 # task 3
 
