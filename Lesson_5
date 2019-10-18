@@ -1,0 +1,9 @@
+# task 1
+
+CPU - 1.
+
+Mem - 984
+
+# task 2
+
+find -type f -name "*.py"
