@@ -14,7 +14,7 @@ cat > print_numbers.py
  
 import time
 
-for i in range(10):
+for i in range(100):
     time.sleep(1)
     print(i+1)
     
