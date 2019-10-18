@@ -7,3 +7,18 @@ Mem - 984
 # task 2
 
 find -type f -name "*.py"
+
+# task 3
+
+cat > print_numbers.py
+ 
+import time
+
+for i in range(10):
+    time.sleep(1)
+    print(i+1)
+    
+python3 print_numbers.py &
+htop
+F4
+python
