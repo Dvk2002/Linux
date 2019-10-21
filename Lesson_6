@@ -1,0 +1,21 @@
+# task 1
+
+# Создал
+
+# task 2
+
+# Создал, проверил
+
+# task 3
+
+sudo mkfs –t xfs /dev/xvdf
+sudo mkdir /data
+sudo mount /dev/xvdf /data
+sudo chmod go+rw /data
+echo test > /data/test.txt
+sudo umount /data
+# second instance
+sudo mkdir /data
+sudo mount /dev/xvdf /data
+sudo chmod go+rw /data/test.txt
+nano /data/test.txt
