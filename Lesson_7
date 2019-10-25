@@ -1,0 +1,7 @@
+# task 1
+
+ ls | grep ^t
+
+# task 2
+
+cat *.py | grep 'print'
