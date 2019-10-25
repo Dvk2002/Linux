@@ -5,3 +5,7 @@
 # task 2
 
 cat *.py | grep 'print'
+
+# task 3
+
+uptime | sed 's/.* \([0-9:]\+\), .*/\1/'
