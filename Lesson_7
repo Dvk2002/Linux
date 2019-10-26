@@ -1,6 +1,6 @@
 # task 1
 
- ls | grep ^t
+ ls | grep ^t.*py
 
 # task 2
 
