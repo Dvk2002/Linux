@@ -5,9 +5,7 @@ cat > name.sh
 for n in {1..3}
 do whoami
 done
-
- chmod +x name.sh
-
+chmod +x name.sh
 ./name.sh
 
  for n in {1..3}; do whoami; done
@@ -20,3 +18,16 @@ done
     echo $y
     y=$(( $y + 2 ))
   done
+ 
+ # task 3
+ 
+ nano test.txt
+ 
+ cat > test_cron.sh
+ #!/bin/bash
+ cp test.txt test.txt.bak
+ 
+ chmod +x test_cron.sh
+ 
+ crontab -e
+*/20 * * * * /home/ubuntu/test_cron.sh
