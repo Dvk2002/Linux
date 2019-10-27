@@ -8,7 +8,6 @@ done
 chmod +x name.sh
 ./name.sh
 
- for n in {1..3}; do whoami; done
  
  # task 2
  
